@@ -40,5 +40,20 @@ namespace Day5PracticeProblem
                 Console.WriteLine($"Third value is smaller : {tValue}");
             }
         }
+        public void MinFindString(string firstValue, string secondValue, string thirdValue)
+        {
+            if (firstValue.Length < secondValue.Length && firstValue.Length < thirdValue.Length)
+            {
+                Console.WriteLine($"First String is smaller : {firstValue}");
+            }
+            else if (secondValue.Length < firstValue.Length && secondValue.Length < thirdValue.Length)
+            {
+                Console.WriteLine($"Second String is smaller : {secondValue}");
+            }
+            else
+            {
+                Console.WriteLine($"Third value is smaller : {thirdValue}");
+            }
+        }
     }
 }

@@ -11,8 +11,9 @@ namespace Day5PracticeProblem
         public static void Main(string[] args)
         {
             MinGeneric minGeneric = new MinGeneric();
-            minGeneric.MinFind(30,20,10);
-            minGeneric.MinFindDouble( 60.5, 40.6, 40.65);
+            minGeneric.MinFindString("chinnu", "sunny", "avi");
+            //minGeneric.MinFind(30,20,10);
+            //minGeneric.MinFindDouble( 60.5, 40.6, 40.65);
             //MaxGeneric<int> generic = new MaxGeneric<int>();
             //MaxGeneric<double> findMax = new MaxGeneric<double>();
             //MaxGeneric<string> name = new MaxGeneric<string>();
