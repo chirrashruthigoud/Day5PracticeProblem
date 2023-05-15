@@ -8,19 +8,19 @@ namespace Day5PracticeProblem
 {
     public class MinGeneric
     {
-        public void MinFind(int fValue, int secondValue, int thirdValue)
+        public void MinFind(int fValue, int sValue, int tValue)
         {
-            if (fValue < secondValue && fValue < thirdValue)
+            if (fValue < sValue && fValue < tValue)
             {
                 Console.WriteLine($"First Value is smaller : {fValue}");
             }
-            else if (secondValue < fValue && secondValue < thirdValue)
+            else if (sValue < fValue && sValue < tValue)
             {
-                Console.WriteLine($"Second Value is smaller : {secondValue}");
+                Console.WriteLine($"Second Value is smaller : {sValue}");
             }
             else
             {
-                Console.WriteLine($"Third value is smaller : {thirdValue}");
+                Console.WriteLine($"Third value is smaller : {tValue}");
             }
         }
 
